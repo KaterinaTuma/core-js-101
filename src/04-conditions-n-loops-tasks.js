@@ -504,7 +504,7 @@ function evaluateTicTacToePosition(position) {
   }
 
   // Проверка вертикальных линий
-  for (let col = 0; col < 3; col + 1) {
+  for (let col = 0; col < 3; col += 1) {
     if (position[0][col]
       && position[0][col] === position[1][col]
       && position[1][col] === position[2][col]) {
